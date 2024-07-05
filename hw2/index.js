@@ -7,14 +7,18 @@ function App() {
         area.
       </div>
       <div>
-        <a href="">Getting started with the web</a>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web">
+          Getting started with the web
+        </a>
         <p>
           Provides a practical introduction to web development for complete
           beginners.
         </p>
       </div>
       <div>
-        <a href="">HTML — Structuring the web</a>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">
+          HTML — Structuring the web
+        </a>
         <p>
           HTML is the language that we use to structure the different parts of
           our content and define what their meaning or purpose is. This topic
@@ -22,7 +26,9 @@ function App() {
         </p>
       </div>
       <div>
-        <a href="">CSS — Styling the web</a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+          CSS — Styling the web
+        </a>
         <p>
           CSS is the language that we use to control our web content's style and
           layout, as well as adding behavior like animation. This topic provides
@@ -33,4 +39,9 @@ function App() {
   );
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
