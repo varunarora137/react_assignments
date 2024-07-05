@@ -11,8 +11,9 @@ function App() {
         The aim of this area of MDN is not to take you from "beginner" to
         "expert" but to take you from "beginner" to "comfortable." From there,
         you should be able to start making your way, learning from &nbsp;
-        <a href="">the rest of MDN</a>, and other intermediate to advanced
-        resources that assume a lot of previous knowledge.
+        <a href="https://developer.mozilla.org/en-US/">the rest of MDN</a>, and
+        other intermediate to advanced resources that assume a lot of previous
+        knowledge.
       </div>
       <div>
         If you are a complete beginner, web development can be challenging — we
