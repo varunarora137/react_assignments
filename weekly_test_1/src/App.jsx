@@ -26,10 +26,16 @@ function App() {
       allCharacters += numbers;
     }
     if (isChecked1) {
-      allCharacters += lowercase;
+      allCharacters += uppercase;
     }
     if (isChecked2) {
-      allCharacters += uppercase;
+      allCharacters += lowercase;
+    }
+
+    if (allCharacters.length === 0) {
+      setPassword(pass);
+      alert("--All checks are empty--");
+      return;
     }
 
     for (let i = 0; i < size; i++) {
