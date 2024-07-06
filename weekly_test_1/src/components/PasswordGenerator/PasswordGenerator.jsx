@@ -25,6 +25,8 @@ function PasswordGenerator({
           onChange={(e) => {
             setSize(e.target.value);
           }}
+          max={50}
+          min={8}
         />
       </div>
       <div className="options">
