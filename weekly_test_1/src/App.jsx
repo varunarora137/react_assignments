@@ -11,6 +11,13 @@ function App() {
   const [password, setPassword] = useState("");
 
   function generate() {
+    if (size < 8 || size > 50) {
+      setSize(8);
+      setPassword("");
+      alert("Length out of mentioned range");
+      return;
+    }
+
     const specialCharacters = "!@#$%^&*()_+[]{}|;:,.<>?";
     const numbers = "0123456789";
     const lowercase = "abcdefghijklmnopqrstuvwxyz";
