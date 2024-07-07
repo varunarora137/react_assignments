@@ -10,6 +10,10 @@ function PasswordDisplay(props) {
         <input type="text" value={props.password} disabled />
         <button
           onClick={() => {
+            if (props.password === "") {
+              alert("Password field is empty,nothing to copy!");
+              return;
+            }
             navigator.clipboard.writeText(props.password);
             alert("Password Copied");
           }}
