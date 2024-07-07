@@ -9,4 +9,4 @@ Currently, two official plugins are available:
 
 # Hosted Link
 
-[https://geekweklytest1.netlify.app](Click Me)
+[Click Me] (https://geekweklytest1.netlify.app/)
