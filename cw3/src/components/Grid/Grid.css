@@ -1,0 +1,6 @@
+.Grid {
+  padding: 65px 150px 30px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+}

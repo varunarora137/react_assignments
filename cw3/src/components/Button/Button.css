@@ -1,0 +1,10 @@
+.genericButton:hover {
+  cursor: pointer;
+  filter: brightness(0.8);
+}
+.genericButton {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-size: 14px;
+}

@@ -1,0 +1,32 @@
+.gridcardContent {
+  /* width: 385px; */
+  padding: 25px 25px;
+  color: #4b5563;
+  background-color: #f9fafb;
+  border-radius: 20px;
+  box-shadow: 0 1px 0px rgba(15, 15, 15, 0.1);
+  line-height: 1.6;
+}
+.gridcard {
+  margin-bottom: 30px;
+}
+
+.gridcardFooter {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.gridcardFooterImage {
+  width: 50px;
+  height: 50px;
+}
+.gridcardFooterImage img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+.designations p {
+  color: black;
+  font-size: 14px;
+}
