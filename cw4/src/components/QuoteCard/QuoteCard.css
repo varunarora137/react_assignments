@@ -1,0 +1,18 @@
+.quoteCard {
+  width: 88%;
+  margin: 0 auto;
+  background-color: #1f2937;
+  padding: 30px 20px 55px;
+  border-radius: 8px;
+  margin-bottom: 100px;
+}
+.quoteCard h1 {
+  color: white;
+  text-align: center;
+}
+.quoteCard p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #9ba2ae;
+  text-align: center;
+}
