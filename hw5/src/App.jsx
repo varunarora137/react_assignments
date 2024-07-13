@@ -21,7 +21,9 @@ function App() {
       alert("Please Enter Number Between 1 and 54");
       return;
     }
-    setArr(data.filter((d) => d.id <= num));
+    const shuffledData = [...data].sort(() => 0.5 - Math.random());
+    const selectedParagraphs = shuffledData.slice(0, num);
+    setArr(selectedParagraphs);
   }
 
   return (
@@ -47,10 +49,10 @@ function App() {
         {arr.length === 0 ? (
           <h2>Please Enter Some Number To Generate Paragraphs</h2>
         ) : (
-          arr.map((d) => (
+          arr.map((d, ind) => (
             <Lorem
               key={d.id}
-              i={d.id}
+              i={ind + 1}
               text={d.paragraph}
               handleClick={() => handleClick(d.id, d.paragraph)}
             />
