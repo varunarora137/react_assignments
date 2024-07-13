@@ -8,7 +8,11 @@ function App() {
   const [arr, setArr] = useState([]);
 
   function handleClick(id, para) {
-    // arr.map((a)=>a.id==)
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i].id === id) {
+        navigator.clipboard.writeText(para);
+      }
+    }
   }
 
   function validate(e) {
