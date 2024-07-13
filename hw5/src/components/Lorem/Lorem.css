@@ -1,0 +1,21 @@
+.paragraph {
+  width: 90%;
+  margin: 20px auto;
+  background-color: #0a9e40;
+  color: white;
+  border-radius: 15px;
+  padding: 20px;
+  padding-right: 25px;
+  font-size: 18px;
+  position: relative;
+}
+span {
+  color: black;
+}
+img {
+  width: 20px;
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  cursor: pointer;
+}
