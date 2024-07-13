@@ -1,0 +1,42 @@
+.subjectDiv {
+  display: flex;
+  background-color: rgb(198, 171, 171);
+  padding: 10px 20px;
+  border-radius: 15px;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.subjectDiv p {
+  /* flex-grow: 1; */
+  font-size: 18px;
+}
+.subjectDiv p:first-child {
+  /* flex-grow: 1; */
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.subjectDiv button {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 8px;
+  font-size: 20px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  transform: 0.1s linear;
+}
+.subjectDiv button:nth-child(3) {
+  background-color: red;
+  color: white;
+}
+.subjectDiv button:hover {
+  color: green;
+  background-color: white;
+}
+.subjectDiv button:nth-child(3):hover {
+  color: red;
+}
