@@ -1,33 +1,37 @@
 import "./Cart.css";
 import Product from "../Product/Product.jsx";
+import Phone1 from "../../assets/phone-1.png";
+import Phone2 from "../../assets/phone-2.png";
+import Phone3 from "../../assets/phone-3.png";
+import Phone4 from "../../assets/phone-4.png";
 import { useState } from "react";
 
 function Cart({ updateCartQuantity }) {
   const [cartData, setCartData] = useState([
     {
       id: 1,
-      src: "https://www.course-api.com/images/cart/phone-1.png",
+      src: Phone1,
       count: 1,
       company: "Samsung Galaxy S8",
       price: 399.99,
     },
     {
       id: 2,
-      src: "https://www.course-api.com/images/cart/phone-2.png",
+      src: Phone2,
       count: 1,
       company: "Google Pixel",
       price: 499.99,
     },
     {
       id: 3,
-      src: "https://www.course-api.com/images/cart/phone-3.png",
+      src: Phone3,
       count: 1,
       company: "Xiaomi Redmi Note 2",
       price: 699.99,
     },
     {
       id: 4,
-      src: "https://www.course-api.com/images/cart/phone-4.png",
+      src: Phone4,
       count: 1,
       company: "Samsung Galaxy S7",
       price: 599.99,
