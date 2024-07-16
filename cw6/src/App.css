@@ -1,0 +1,15 @@
+.nav {
+  height: 9vh;
+  background-color: #1976d2;
+  box-shadow: 0 0 10px rgba(15, 15, 15, 0.5);
+  color: white;
+  font-size: 26px;
+  line-height: 8vh;
+}
+.nav p {
+  margin-left: 50px;
+}
+.main {
+  height: calc(100vh - 9vh);
+  display: flex;
+}

@@ -1,0 +1,31 @@
+.header {
+  height: 11vh;
+  background-color: #645cff;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cart-icon {
+  font-size: 34px;
+}
+.cartContainer {
+  position: relative;
+}
+.total-prod {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background-color: #a29dff;
+  font-size: 22px;
+  position: absolute;
+  z-index: 2;
+  top: -15px;
+  right: -10px;
+}
+.total-prod p {
+  line-height: 25px;
+  width: 100%;
+  text-align: center;
+}

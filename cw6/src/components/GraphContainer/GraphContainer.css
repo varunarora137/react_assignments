@@ -1,0 +1,16 @@
+.graphContainer {
+  height: 100%;
+  width: 50vw;
+  padding: 45px 25px;
+}
+.chart-wrapper {
+  margin: 0 auto;
+  width: 90%;
+  height: 50%;
+}
+.mp {
+  margin-top: 90px;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}

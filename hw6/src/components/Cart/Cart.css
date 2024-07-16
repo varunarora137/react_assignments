@@ -1,0 +1,48 @@
+.cart {
+  padding-top: 70px;
+  padding-bottom: 40px;
+  width: 53%;
+  margin: 0 auto;
+}
+.bag {
+  font-size: 46px;
+  text-align: center;
+}
+.cartItems {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+.line {
+  border-top: 2px solid #cbd5e1;
+  margin-bottom: 20px;
+}
+.totalAndAmount {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.amount {
+  background-color: #645cff;
+  color: white;
+  border-radius: 4px;
+  padding: 1px 7px;
+}
+.totalDiv button {
+  padding: 5px 15px;
+  color: #403aad;
+  font-size: 14px;
+  background-color: #c1beff;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: 0.1s linear;
+}
+.totalDiv button:hover {
+  color: #bcb5f8;
+  background-color: #3c3799;
+}
