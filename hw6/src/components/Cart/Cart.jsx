@@ -2,7 +2,7 @@ import "./Cart.css";
 import Product from "../Product/Product.jsx";
 import { useState } from "react";
 
-function Cart() {
+function Cart({ updateCartQuantity }) {
   const [cartData, setCartData] = useState([
     {
       id: 1,
@@ -38,7 +38,7 @@ function Cart() {
 
   function calculateTotal(cartData) {
     const tempTotal = cartData.reduce((acc, c) => acc + c.count * c.price, 0);
-    setTotal(tempTotal);
+    setTotal(tempTotal.toFixed(2));
   }
 
   function inc(id) {
@@ -72,33 +72,41 @@ function Cart() {
     calculateTotal(updatedData);
   }
 
+  updateCartQuantity(cartData);
+
   return (
     <div className="cart">
       <p className="bag">YOUR BAG</p>
-      <div className="cartItems">
-        {cartData.map((c) => (
-          <Product
-            key={c.id}
-            src={c.src}
-            company={c.company}
-            price={c.price}
-            inc={() => inc(c.id)}
-            dec={() => dec(c.id)}
-            remove={() => remove(c.id)}
-            quantity={c.count}
-          />
-        ))}
-      </div>
-      <div className="line"></div>
-      <div className="totalDiv">
-        <div className="totalAndAmount">
-          <p className="total">Total</p>
-          <div className="amount">
-            <p>{total}</p>
+      {cartData.length === 0 ? (
+        <p className="empty">is currently empty</p>
+      ) : (
+        <div className="cartInnerContainer">
+          <div className="cartItems">
+            {cartData.map((c) => (
+              <Product
+                key={c.id}
+                src={c.src}
+                company={c.company}
+                price={c.price}
+                inc={() => inc(c.id)}
+                dec={() => dec(c.id)}
+                remove={() => remove(c.id)}
+                quantity={c.count}
+              />
+            ))}
+          </div>
+          <div className="line"></div>
+          <div className="totalDiv">
+            <div className="totalAndAmount">
+              <p className="total">Total</p>
+              <div className="amount">
+                <p>{total}</p>
+              </div>
+            </div>
+            <button onClick={() => setCartData([])}>Clear Cart</button>
           </div>
         </div>
-        <button>Clear Cart</button>
-      </div>
+      )}
     </div>
   );
 }

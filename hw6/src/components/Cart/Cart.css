@@ -46,3 +46,9 @@
   color: #bcb5f8;
   background-color: #3c3799;
 }
+.empty {
+  font-size: 30px;
+  text-align: center;
+  color: #64748b;
+  margin-top: 35px;
+}
