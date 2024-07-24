@@ -1,6 +1,6 @@
 .textarea {
   min-height: 100vh;
-  width: calc(100vw - 10px - 15%);
+  /* width: calc(100vw - 10px - 15%); */
 }
 .w-md-editor-toolbar {
   padding: 26px 10px;

@@ -10,6 +10,8 @@ function App() {
 
   const [data, setData] = useState(tempData);
   const [currIndex, setCurrIndex] = useState(tempData.length ? 0 : null);
+  const [isDragging, setIsDragging] = useState(false);
+  const [width, setWidth] = useState(230);
 
   function handleData() {
     const newData = [{ desc: "# Enter title here \n\n" }, ...data];
@@ -36,26 +38,47 @@ function App() {
     }
   }
 
+  const handleMouseDown = () => {
+    setIsDragging(true);
+  };
+
+  const handleMouseMove = (e) => {
+    if (isDragging) {
+      setWidth((prevWidth) => prevWidth + e.movementX);
+    }
+  };
+
+  const handleMouseUp = () => {
+    setIsDragging(false);
+  };
+
   return (
     <>
       {data.length > 0 && (
-        <div className="container">
+        <div
+          className="container"
+          onMouseUp={handleMouseUp}
+          onMouseMove={handleMouseMove}
+        >
           <NotesContainer
             data={data}
             handleData={handleData}
             currIndex={currIndex}
             setCurrIndex={setCurrIndex}
             onDelete={onDelete}
+            width={width}
           />
           <div
             className="gutter gutter-horizontal"
             style={{ width: "10px" }}
+            onMouseDown={handleMouseDown}
           ></div>
           <Textarea
             data={data}
             currIndex={currIndex}
             setData={setData}
             setCurrIndex={setCurrIndex}
+            width={width}
           />
         </div>
       )}

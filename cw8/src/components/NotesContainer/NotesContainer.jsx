@@ -8,9 +8,10 @@ function NotesContainer({
   currIndex,
   setCurrIndex,
   onDelete,
+  width,
 }) {
   return (
-    <div className="notesContainer">
+    <div className="notesContainer" style={{ width: width + "px" }}>
       <div className="heading">
         <h1>NOTES</h1>
         <IoMdAddCircle className="addItem" onClick={handleData} />
