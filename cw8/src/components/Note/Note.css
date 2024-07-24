@@ -1,0 +1,33 @@
+.note {
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid black;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 30px;
+}
+.note p {
+  font-size: 16px;
+}
+.bin {
+  right: 15px;
+  top: 35%;
+  cursor: pointer;
+  font-size: 18px;
+  position: absolute;
+}
+.bin:hover {
+  color: red;
+}
+.selected {
+  background-color: #3c91e6;
+  height: 55px;
+  gap: 10px;
+}
+.selected p {
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+}

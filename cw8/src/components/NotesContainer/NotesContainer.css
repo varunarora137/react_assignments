@@ -1,0 +1,23 @@
+.notesContainer {
+  width: 15%;
+  height: 100%;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
+  gap: 15px;
+  margin-top: 15px;
+}
+.notesContainer h1 {
+  text-align: center;
+}
+.addItem {
+  font-size: 32px;
+  cursor: pointer;
+  color: #3c91e6;
+}
+.notes {
+  margin-top: 20px;
+}
