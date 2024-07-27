@@ -1,0 +1,40 @@
+.container {
+  width: 70%;
+  height: 80%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: #ff7168;
+  border-radius: 10px;
+  text-align: center;
+}
+.container h1 {
+  margin-top: 20px;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: underline;
+}
+.transaltionDivs {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+.submit {
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding: 8px 20px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 25px;
+  transition: 0.1s linear;
+}
+.submit:hover {
+  background-color: white;
+  color: green;
+}
