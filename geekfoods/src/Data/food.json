@@ -1,0 +1,162 @@
+[
+  {
+    "id": "1",
+    "title": "Shredded Chicken",
+    "image": "https://i3.wp.com/www.mowglistreetfood.com/wp-content/uploads/2023/01/Landing_image_Desktop.jpg?ssl=1",
+    "publisher": "Ramen Show",
+    "ingredients": ["Chicken", "Salt", "Pepper", "Olive Oil"],
+    "health": "High Protein, Low Carb"
+  },
+  {
+    "id": "2",
+    "title": "Pasta Carbonara",
+    "image": "https://cdn.vox-cdn.com/thumbor/bif3U7XKUqWpOUv91_fXLfzsIx8=/0x0:6000x4000/1200x675/filters:focal(2520x1520:3480x2480)/cdn.vox-cdn.com/uploads/chorus_image/image/71262429/Le_Fantome.0.jpg",
+    "publisher": "Brock Sena",
+    "ingredients": ["Pasta", "Eggs", "Cheese", "Bacon"],
+    "health": "High Carb, High Fat"
+  },
+  {
+    "id": "3",
+    "title": "Caesar Salad",
+    "image": "https://howtostartanllc.com/images/business-ideas/business-idea-images/fast-food.jpg",
+    "publisher": "Chef Luigi",
+    "ingredients": ["Lettuce", "Croutons", "Parmesan", "Caesar Dressing"],
+    "health": "Low Carb, High Fiber"
+  },
+  {
+    "id": "4",
+    "title": "Grilled Salmon",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS258KBKJazIjR-R4juPxQZzjprSxM1L0AlQA&s",
+    "publisher": "Chef Pierre",
+    "ingredients": ["Salmon", "Lemon", "Dill", "Garlic"],
+    "health": "High Protein, Omega-3"
+  },
+  {
+    "id": "5",
+    "title": "Beef Stroganoff",
+    "image": "https://www.holidify.com/blog/wp-content/uploads/2015/06/3103605133_ae7782cb67_b.jpg",
+    "publisher": "Chef Anna",
+    "ingredients": ["Beef", "Mushrooms", "Sour Cream", "Onions"],
+    "health": "High Protein, High Fat"
+  },
+  {
+    "id": "6",
+    "title": "Vegetable Stir Fry",
+    "image": "https://static.toiimg.com/photo/50667683/.jpg",
+    "publisher": "Chef Wei",
+    "ingredients": ["Broccoli", "Carrots", "Bell Peppers", "Soy Sauce"],
+    "health": "Low Calorie, High Fiber"
+  },
+  {
+    "id": "7",
+    "title": "Margherita Pizza",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkOgk4FIkm1dzplUqKpoCM_5yYsFXqHgMetQ&s",
+    "publisher": "Chef Mario",
+    "ingredients": ["Pizza Dough", "Tomato Sauce", "Mozzarella", "Basil"],
+    "health": "High Carb, High Fat"
+  },
+  {
+    "id": "8",
+    "title": "Chicken Curry",
+    "image": "https://i3.wp.com/www.mowglistreetfood.com/wp-content/uploads/2023/01/Landing_image_Desktop.jpg?ssl=1",
+    "publisher": "Chef Ayesha",
+    "ingredients": ["Chicken", "Curry Powder", "Coconut Milk", "Onions"],
+    "health": "High Protein, Medium Carb"
+  },
+  {
+    "id": "9",
+    "title": "Beef Tacos",
+    "image": "https://cdn.vox-cdn.com/thumbor/bif3U7XKUqWpOUv91_fXLfzsIx8=/0x0:6000x4000/1200x675/filters:focal(2520x1520:3480x2480)/cdn.vox-cdn.com/uploads/chorus_image/image/71262429/Le_Fantome.0.jpg",
+    "publisher": "Chef Juan",
+    "ingredients": ["Beef", "Taco Shells", "Lettuce", "Cheese"],
+    "health": "High Protein, High Fat"
+  },
+  {
+    "id": "10",
+    "title": "Greek Salad",
+    "image": "https://howtostartanllc.com/images/business-ideas/business-idea-images/fast-food.jpg",
+    "publisher": "Chef Nikos",
+    "ingredients": ["Tomatoes", "Cucumbers", "Feta Cheese", "Olives"],
+    "health": "Low Carb, High Fiber"
+  },
+  {
+    "id": "11",
+    "title": "Egg Fried Rice",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkOgk4FIkm1dzplUqKpoCM_5yYsFXqHgMetQ&s",
+    "publisher": "Chef Li",
+    "ingredients": ["Rice", "Eggs", "Soy Sauce", "Green Onions"],
+    "health": "High Carb, Medium Protein"
+  },
+  {
+    "id": "12",
+    "title": "Fish Tacos",
+    "image": "https://www.holidify.com/blog/wp-content/uploads/2015/06/3103605133_ae7782cb67_b.jpg",
+    "publisher": "Chef Carlos",
+    "ingredients": ["Fish", "Tortillas", "Cabbage", "Lime"],
+    "health": "High Protein, Low Carb"
+  },
+  {
+    "id": "13",
+    "title": "Falafel Wrap",
+    "image": "https://static.toiimg.com/photo/50667683/.jpg",
+    "publisher": "Chef Ahmed",
+    "ingredients": ["Chickpeas", "Pita Bread", "Tahini", "Lettuce"],
+    "health": "High Fiber, Vegan"
+  },
+  {
+    "id": "14",
+    "title": "Spaghetti Bolognese",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkOgk4FIkm1dzplUqKpoCM_5yYsFXqHgMetQ&s",
+    "publisher": "Chef Giovanni",
+    "ingredients": ["Spaghetti", "Ground Beef", "Tomato Sauce", "Parmesan"],
+    "health": "High Carb, High Protein"
+  },
+  {
+    "id": "15",
+    "title": "Chicken Parmesan",
+    "image": "https://i3.wp.com/www.mowglistreetfood.com/wp-content/uploads/2023/01/Landing_image_Desktop.jpg?ssl=1",
+    "publisher": "Chef Sofia",
+    "ingredients": ["Chicken", "Marinara Sauce", "Mozzarella", "Parmesan"],
+    "health": "High Protein, High Fat"
+  },
+  {
+    "id": "16",
+    "title": "BBQ Ribs",
+    "image": "https://cdn.vox-cdn.com/thumbor/bif3U7XKUqWpOUv91_fXLfzsIx8=/0x0:6000x4000/1200x675/filters:focal(2520x1520:3480x2480)/cdn.vox-cdn.com/uploads/chorus_image/image/71262429/Le_Fantome.0.jpg",
+    "publisher": "Chef Jim",
+    "ingredients": ["Ribs", "BBQ Sauce", "Garlic", "Onions"],
+    "health": "High Protein, High Fat"
+  },
+  {
+    "id": "17",
+    "title": "Vegetarian Chili",
+    "image": "https://howtostartanllc.com/images/business-ideas/business-idea-images/fast-food.jpg",
+    "publisher": "Chef Maria",
+    "ingredients": ["Beans", "Tomatoes", "Corn", "Chili Powder"],
+    "health": "High Fiber, Vegan"
+  },
+  {
+    "id": "18",
+    "title": "Mango Smoothie",
+    "image": "https://www.holidify.com/blog/wp-content/uploads/2015/06/3103605133_ae7782cb67_b.jpg",
+    "publisher": "Chef Lee",
+    "ingredients": ["Mango", "Yogurt", "Honey", "Ice"],
+    "health": "High Vitamins, Low Calorie"
+  },
+  {
+    "id": "19",
+    "title": "Chocolate Cake",
+    "image": "https://static.toiimg.com/photo/50667683/.jpg",
+    "publisher": "Chef Sarah",
+    "ingredients": ["Flour", "Cocoa Powder", "Sugar", "Butter"],
+    "health": "High Sugar, High Fat"
+  },
+  {
+    "id": "20",
+    "title": "Tuna Salad",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkOgk4FIkm1dzplUqKpoCM_5yYsFXqHgMetQ&s",
+    "publisher": "Chef Oliver",
+    "ingredients": ["Tuna", "Mayonnaise", "Celery", "Onions"],
+    "health": "High Protein, Low Carb"
+  }
+]

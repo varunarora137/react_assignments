@@ -27,7 +27,7 @@ function Navbar() {
                 `nav-link ${isActive ? "nav-link-active" : ""}`
               }
             >
-              Quote
+              Quotes
             </NavLink>
           </li>
           <li>
