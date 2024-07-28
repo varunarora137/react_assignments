@@ -9,4 +9,4 @@ Currently, two official plugins are available:
 
 # Hosted Link
 
-[Click Me](https://geek_text_translator.netlify.app/)
+[Click Me](https://geek-text-translator.netlify.app/)
