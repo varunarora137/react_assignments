@@ -3,6 +3,8 @@ import "./App.css";
 import TranslationContainer from "./components/TranslationContainer/TranslationContainer.jsx";
 import axios from "axios";
 
+const API_KEY = import.meta.env.VITE_API_KEY;
+
 function App() {
   const [initialText, setInitialText] = useState("");
   const [finalText, setFinalText] = useState("");
@@ -22,7 +24,7 @@ function App() {
       method: "POST",
       url: "https://text-translator2.p.rapidapi.com/translate",
       headers: {
-        "x-rapidapi-key": "a5fd3e080emshd7a183ebbe31cccp13319djsn2c76851ffcde",
+        "x-rapidapi-key": API_KEY,
         "x-rapidapi-host": "text-translator2.p.rapidapi.com",
       },
       data: data,
