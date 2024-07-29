@@ -1,0 +1,12 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  min-height: 100vh;
+  background-color: #edf4f2;
+  box-shadow: 0 0 55px rgba(15, 15, 15, 0.5);
+}
+#root h1 {
+  font-size: 60px;
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+.expense {
+  height: 100%;
+  background-color: #145d6e;
+  width: 30%;
+  color: white;
+  font-size: 32px;
+  padding-top: 5px;
+  line-height: 1;
+  border-radius: 25px;
+}
+.expense button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 35px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.1s linear;
+  margin-right: 15px;
+}
+.expense button:hover {
+  transform: scale(1.1);
+}
+.expense input {
+  width: 50%;
+  margin: 0 auto;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}

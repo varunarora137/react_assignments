@@ -1,0 +1,70 @@
+.expenseListConatiner {
+  width: 100%;
+  margin: 40px 0;
+}
+.expenseListConatiner h2 {
+  font-size: 40px;
+}
+.expenseListDiv {
+  margin: 20px auto;
+  width: 90%;
+  font-size: 22px;
+}
+.expenseList {
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  background-color: #31473a;
+  height: 8vh;
+  color: white;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+.item {
+  width: 50%;
+  text-transform: capitalize;
+}
+.itemCost {
+  width: 48%;
+}
+.delete {
+  cursor: pointer;
+  transition: 0.1s linear;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.delete:hover {
+  transform: scale(1.2);
+}
+.headings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headings .search {
+  width: 25%;
+  position: relative;
+}
+.headings input {
+  padding: 0 26px 0 15px;
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+.headings span {
+  position: absolute;
+  right: 3px;
+  cursor: pointer;
+
+  top: 2px;
+}
+.warning {
+  text-align: center;
+  margin-top: 50px;
+  color: red;
+  font-size: 26px;
+}

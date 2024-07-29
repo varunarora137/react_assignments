@@ -1,0 +1,36 @@
+.addExpense {
+  text-align: center;
+}
+.addExpense h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.expenseInput {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+}
+.expenseInput input {
+  padding-left: 10px;
+  width: 49%;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+.data-save {
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  padding: 10px 35px;
+  background-color: #145d6e;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.1s linear;
+}
+.data-save:hover {
+  transform: scale(1.1);
+}

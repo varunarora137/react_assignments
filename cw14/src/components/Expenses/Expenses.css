@@ -1,0 +1,8 @@
+.expenseContainer {
+  margin: 40px auto;
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
