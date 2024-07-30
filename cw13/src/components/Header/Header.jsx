@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./Header.css";
 
 function Header({ text, setMode }) {
-  const [circleMove, setCircleMove] = useState(false);
+  const [circleMove, setCircleMove] = useState(text === "dark" ? true : false);
   return (
     <div className="header">
       <div className="headerHeadings">

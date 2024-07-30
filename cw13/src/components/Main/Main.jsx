@@ -1,5 +1,20 @@
-import { useReducer } from "react";
+import { useEffect, useReducer } from "react";
 import "./Main.css";
+
+const storedData = localStorage.getItem("reducerObj")
+  ? JSON.parse(localStorage.getItem("reducerObj"))
+  : {
+      mode: "light",
+      data: {
+        text: "",
+        words: 0,
+        characters: 0,
+        readingTime: 0,
+      },
+    };
+
+const initialData = storedData.data;
+const initialMode = storedData.mode;
 
 function reducer(currentState, action) {
   switch (action.type) {
@@ -53,16 +68,24 @@ function reducer(currentState, action) {
     case "copy":
       navigator.clipboard.writeText(currentState.text);
       return currentState;
+    default:
+      return currentState;
   }
 }
 
-function Main() {
-  const [state, dispatch] = useReducer(reducer, {
-    text: "",
-    words: 0,
-    characters: 0,
-    readingTime: 0,
-  });
+function Main({ mode, setMode }) {
+  const [state, dispatch] = useReducer(reducer, initialData);
+
+  useEffect(() => {
+    localStorage.setItem(
+      "reducerObj",
+      JSON.stringify({ mode: mode, data: state })
+    );
+  }, [state, mode]);
+
+  useEffect(() => {
+    setMode(initialMode);
+  }, []);
 
   return (
     <div className="main">

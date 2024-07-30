@@ -5,12 +5,12 @@ import Footer from "./components/Footer/Footer";
 import { useState } from "react";
 
 function App() {
-  const [mode, setMode] = useState("light");
+  const [mode, setMode] = useState("");
 
   return (
     <div data-mode={mode}>
       <Header text={mode} setMode={setMode} />
-      <Main />
+      <Main mode={mode} setMode={setMode} />
       <Footer />
     </div>
   );
