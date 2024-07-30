@@ -1,0 +1,61 @@
+.header {
+  height: 60px;
+  background-color: var(--background-color);
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.1s linear;
+}
+.headerHeadings {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.heading {
+  font-size: 22px;
+  font-weight: 600;
+  color: #06b6d4;
+}
+.headerHeadings ul {
+  display: flex;
+  gap: 10px;
+}
+.headerHeadings li {
+  list-style: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #6a6a6b;
+}
+.headerHeadings li:first-child {
+  color: var(--color);
+}
+.modeChange {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.modeChange .toggle {
+  height: 15px;
+  width: 30px;
+  border: 1px solid var(--color);
+  border-radius: 25px;
+  position: relative;
+  cursor: pointer;
+}
+.modeChange .circle {
+  position: absolute;
+  height: 14px;
+  border-radius: 50%;
+  width: 14px;
+  background-color: var(--color);
+}
+.moveLeft {
+  left: 0;
+}
+.moveRight {
+  right: 0;
+}
+.modeChange p {
+  color: var(--color);
+}
